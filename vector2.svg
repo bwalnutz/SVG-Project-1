@@ -1,1 +1,69 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 378 331"><title>vector2</title><path d="M362,202V175h10V126H323v49h9v27H223V191H183v11H151V457H529V202Zm-30-67h30v30H332Zm17,267a66,66,0,1,1,66-66A66,66,0,0,1,349,402ZM475.5,233a7.5,7.5,0,1,1,7.5-7.5A7.5,7.5,0,0,1,475.5,233Zm23,0a7.5,7.5,0,1,1,7.5-7.5A7.5,7.5,0,0,1,498.5,233Z" transform="translate(-151 -126)" fill="#020202"/><circle cx="198.5" cy="210.5" r="56.5" fill="#020202"/><path d="M376,623" transform="translate(-151 -126)" fill="#020202"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 378 331">
+	<title>vector2</title>
+	<defs>
+		<style>
+
+			svg{
+			height: 200px;
+			width: auto;
+			display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+  			width: 50%;
+  			padding-top: 25%;
+			}
+
+	path {
+	fill: orange;
+	animation: animate 3s linear forwards;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	stroke: blue;
+	}
+
+	circle{
+	fill: blue;
+	animation: animateCircle 3s linear forwards;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	}
+
+	@keyframes animate {
+	 from {
+	 	
+	 	fill-opacity: 0;
+	 	stroke-opacity: 1;
+	 }
+
+	 to {
+	
+	 fill-opacity: 1;
+	 stroke-opacity: 0;
+	 background-color: cyan;
+	 }
+	 }
+
+	 @keyframes animateCircle {
+	 from {
+	 		transform: rotateX(0deg);
+	 		fill: green;
+	 		fill-opacity:1;
+	 }
+
+	 to {
+	 
+	 fill-opacity: .5;
+	 	transform: rotateX(360deg);
+		fill: purple;
+	 }
+
+
+
+	}
+</style>
+</defs>
+
+
+<path d="M362,202V175h10V126H323v49h9v27H223V191H183v11H151V457H529V202Zm-30-67h30v30H332Zm17,267a66,66,0,1,1,66-66A66,66,0,0,1,349,402ZM475.5,233a7.5,7.5,0,1,1,7.5-7.5A7.5,7.5,0,0,1,475.5,233Zm23,0a7.5,7.5,0,1,1,7.5-7.5A7.5,7.5,0,0,1,498.5,233Z" transform="translate(-151 -126)" fill="#020202"/><circle cx="198.5" cy="210.5" r="56.5" fill="#020202"/><path d="M376,623" transform="translate(-151 -126)" fill="#020202"/>
+
+</svg>

@@ -1,5 +1,70 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.3 355.53">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 600">
 	<title>vector5</title>
+	<defs>
+		<style>
+
+			svg{
+			height: 300px;
+			width: 500px;
+			display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+  			width: 50%;
+  			padding-top: 25%;
+			}
+
+	path {
+	fill: orange;
+	animation: animate 2s linear forwards;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	stroke: green;
+	stroke-width: 3px;
+	}
+
+	rect{
+	fill: purple;
+	animation: animateRect 1s linear forwards;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+	}
+
+	@keyframes animate{
+	from{ transform: skewY(0deg);
+		  transform: skewX(0deg);
+		  opacity: 1;
+		  height: 50px;
+		  width: 50px;
+	}
+
+	to{ transform: skewY(30deg);
+		  transform: skewX(20deg);
+		  opacity:0;
+		  height: 75px;
+		  width: 75px;
+	}
+	}
+
+	@keyframes animateRect{
+	from{ transform: skewX(0deg);
+		  transform: skewY(0deg);
+		  opacity: 1;
+		  height: 50px;
+		  width: 50px;
+	}
+
+	to{ transform: skewX(30deg);
+		  transform: skewY(20deg);
+		  opacity:0;
+		  height: 75px;
+		  width: 75px;
+	}
+	}
+
+
+	
+</style>
+</defs>
 	<path d="M228,174V415.79A24.74,24.74,0,0,0,215,412c-18.23,0-33,21-33,47s14.77,47,33,47,33-21,33-47V174Z" transform="translate(-182 -150.47)" fill="#050505"/>
 	<rect x="317.28" y="72.44" width="15.45" height="194.13" transform="translate(12.68 361.62) rotate(-96.72)" fill="#050505"/>
 	<path d="M402,152V393.79A24.74,24.74,0,0,0,389,390c-18.23,0-33,21-33,47s14.77,47,33,47,33-21,33-47V152Z" transform="translate(-182 -150.47)" fill="#050505"/>

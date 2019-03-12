@@ -1,1 +1,62 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 364"><title>vector4</title><path d="M461,219V180h-2V159.63A23.63,23.63,0,0,0,435.37,136H264.63A23.63,23.63,0,0,0,241,159.63V476.37A23.63,23.63,0,0,0,264.63,500H435.37A23.63,23.63,0,0,0,459,476.37V267h2V233h-2V219ZM346.5,149a2.5,2.5,0,1,1-2.5,2.5A2.5,2.5,0,0,1,346.5,149Zm-15-1a3.5,3.5,0,1,1-3.5,3.5A3.5,3.5,0,0,1,331.5,148ZM443,485H256V163H443Z" transform="translate(-241 -136)" fill="#020202"/></svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 364">
+	<title>vector4</title>
+	<defs>
+		<style>
+
+
+
+      path {
+        animation: draw 4s linear forwards;
+        fill-opacity: 1;
+        fill: cyan;
+        stroke: purple;
+        animation-direction: alternate;
+        stroke-width: 4px;
+        stroke-dasharray: 1200;
+        stroke-dashoffset: 1200;
+      }
+
+      @keyframes draw {
+      	from{
+      	stroke-dasharray: 1200;
+        stroke-dashoffset: 1200;
+       	opacity: 0;
+        stroke-width: 4px;
+        stroke: purple;
+        stroke-opacity: 1;
+        fill: cyan;
+    
+
+      	}
+
+        to {
+        stroke-dasharray: 0;
+        stroke-dashoffset: 0;
+        fill-opactiy: 1;
+        stroke-width: 1px;
+        stroke: orange;
+        opacity: 1;
+        fill: blue;
+        
+        }
+      }
+
+
+
+
+
+
+
+
+		</style>
+	</defs>
+
+
+
+
+
+
+	<path d="M461,219V180h-2V159.63A23.63,23.63,0,0,0,435.37,136H264.63A23.63,23.63,0,0,0,241,159.63V476.37A23.63,23.63,0,0,0,264.63,500H435.37A23.63,23.63,0,0,0,459,476.37V267h2V233h-2V219ZM346.5,149a2.5,2.5,0,1,1-2.5,2.5A2.5,2.5,0,0,1,346.5,149Zm-15-1a3.5,3.5,0,1,1-3.5,3.5A3.5,3.5,0,0,1,331.5,148ZM443,485H256V163H443Z" transform="translate(-241 -136)" fill="#020202"/>
+
+
+</svg>
